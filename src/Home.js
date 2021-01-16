@@ -12,7 +12,6 @@ function Home() {
             <a href="/data">CLICK HERE</a>
             <TabBar />
         </>
-
     )
 
 }
