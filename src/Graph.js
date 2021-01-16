@@ -1,20 +1,16 @@
-import React from "react";
+import styles from "./Graph.css"
+import React from "react"
 
-export class Graph extends React.Component {
 
-    constructor(props) {
-        super(props);
-        this.state = {
-            counter: 0
-        }
-    }
+function Graph() {
 
-    render() {
-        return (
-            <div className="Graph">
-                {this.props.name}
-            </div>
-        )
-    }
+    return (
+        <div className={styles.Graph}>
+            <canvas id="myChart" width="400" height="400"></canvas>
+
+        </div>
+    )
 
 }
+
+export default Graph

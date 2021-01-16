@@ -8,10 +8,14 @@ function TabBar() {
     return (
         <div className={styles.TabBar}>
             <Navbar fixed="bottom">
-                <Navbar.Brand> ENERGi </Navbar.Brand>
+                <Nav.Link href="/">
+                    
+                </Nav.Link>
                 <Nav.Link href="/">HOME</Nav.Link>
                 <Nav.Link href="/data">DATA</Nav.Link>
                 <Nav.Link href="/questions">QUESTIONS</Nav.Link>
+                
+
             </Navbar>
         </div>
     )
