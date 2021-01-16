@@ -1,6 +1,6 @@
 import React from "react";
 
-export class Graph extends React.Component{
+export class Graph extends React.Component {
 
     constructor(props) {
         super(props);
@@ -9,8 +9,8 @@ export class Graph extends React.Component{
         }
     }
 
-    render(){
-        return(
+    render() {
+        return (
             <div className="Graph">
                 {this.props.name}
             </div>
