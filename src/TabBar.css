@@ -1,0 +1,8 @@
+
+
+.TabBar {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    height: 100%;
+}
