@@ -7,7 +7,7 @@ function TabBar() {
 
     return (
         <div className={styles.TabBar}>
-            <Navbar>
+            <Navbar fixed="bottom">
                 <Navbar.Brand> ENERGi </Navbar.Brand>
                 <Nav.Link href="#home">Home</Nav.Link>
                 <Nav.Link href="#link">Link</Nav.Link>

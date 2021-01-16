@@ -13,15 +13,14 @@ function App() {
   return (
       <BrowserRouter>
           <Switch>
-            <Route exact path="/">
-                <Home />
-            </Route>
+              <Route exact path="/">
+                  <Home />
+              </Route>
               <Route path="/data">
                   <Data />
               </Route>
           </Switch>
       </BrowserRouter>
-
   );
 }
 
