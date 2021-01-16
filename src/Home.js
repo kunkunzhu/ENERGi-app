@@ -8,7 +8,7 @@ function Home() {
     return (
         <>
             <h1>hello world</h1>
-            <a href="/data">CLICK HERE</a>
+            <a href="/data">CLICK HERE!</a>
         </>
     )
 
