@@ -8,7 +8,7 @@ function Data() {
 
     return (
         <>
-            <h1>world hello</h1>
+            <h1>data</h1>
             <TabBar />
         </>
     )

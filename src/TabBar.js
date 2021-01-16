@@ -9,8 +9,9 @@ function TabBar() {
         <div className={styles.TabBar}>
             <Navbar fixed="bottom">
                 <Navbar.Brand> ENERGi </Navbar.Brand>
-                <Nav.Link href="#home">Home</Nav.Link>
-                <Nav.Link href="#link">Link</Nav.Link>
+                <Nav.Link href="/">HOME</Nav.Link>
+                <Nav.Link href="/data">DATA</Nav.Link>
+                <Nav.Link href="/questions">QUESTIONS</Nav.Link>
             </Navbar>
         </div>
     )
