@@ -2,4 +2,5 @@
 
 ## bruh bruh bruh bruh moment
 
-###based
+based
+<img src="https://i.imgur.com/yuw4lMu.jpg" alt="app logo">
