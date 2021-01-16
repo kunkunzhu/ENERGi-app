@@ -1,21 +1,16 @@
 import React from "react"
-import * as ReactBootStrap from "react-bootstrap"
+import { Navbar } from "react-bootstrap"
 
-export class TabBar extends React.Component {
+function TabBar() {
 
-    constructor(props) {
-        super(props);
-        this.state = {}
-    }
-
-    render() {
-        return (
-            <div className="TabBar">
-                <ReactBootStrap.Navbar>
-                    <ReactBootStrap.Navbar.Brand> ENERGi </ReactBootStrap.Navbar.Brand>
-                </ReactBootStrap.Navbar>
-            </div>
-        )
-    }
+    return (
+        <div className="TabBar">
+            <Navbar>
+                <Navbar.Brand> ENERGi </Navbar.Brand>
+            </Navbar>
+        </div>
+    )
 
 }
+
+export default TabBar
