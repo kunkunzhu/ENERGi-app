@@ -33,7 +33,7 @@ function Questions() {
                 </div>
             </div>
             {/* <Button id="next" onClick={handleClick} href="/" variant="info">NEXT</Button>{' '} */}
-            <Button onClick={handleClick} variant="info">SUBMIT</Button>{' '}
+            <Button onClick={handleClick} href="/" variant="info">SUBMIT</Button>{' '}
         </div>
         
     )
