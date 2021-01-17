@@ -10,19 +10,21 @@ import { Graph } from "./Graph"
 
 function App() {
   return (
-      <BrowserRouter class="frame">
-          <Switch>
-              <Route exact path="/">
-                  <Home />
-              </Route>
-              <Route path="/data">
-                  <Data />
-              </Route>
-              <Route path="/questions">
-                  <Questions />
-              </Route>
-          </Switch>
-      </BrowserRouter>
+    
+        <BrowserRouter class="frame">
+            <Switch>
+                <Route exact path="/">
+                    <Home />
+                </Route>
+                <Route path="/data">
+                    <Data />
+                </Route>
+                <Route path="/questions">
+                    <Questions />
+                </Route>
+            </Switch>
+        </BrowserRouter>
+    
   );
 }
 

@@ -3,8 +3,7 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, "Oxygen", "Ubuntu", "Cantarell", sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background
-    background: #FDF8FE;
+    background-color: #e7eef1;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -76,7 +75,7 @@ body {
     padding: 0.7em 1.4em;
     margin: 0 0.3em 0.3em 0;
     width: 347px;
-    height: 450px;
+    height: 420px;
     border: 3px solid #dedbf3;
     background: #ecf4ff;
     margin: flex;

@@ -38,7 +38,7 @@ function Questions() {
             <h2>questions</h2>
 
             <div id="questions" class="header" className={styles.Questions}>
-                <div class="range-wrapper frame">
+                <div class="range-wrapper frame frame2">
                     <label class="label" htmlFor="customRange1">How tired do you feel right now?</label>
                     <input type="range" className="custom-range" id="q1Range" />
 
