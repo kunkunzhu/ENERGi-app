@@ -9,6 +9,11 @@ body {
     align-items: center;
 }
 
+#icon {
+    color: #3590F3;
+
+}
+
 .title {
     font-family: "Ubuntu";
     text-align: center;
