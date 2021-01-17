@@ -2,31 +2,30 @@ import styles from "./Graph.css"
 import React from "react"
 import {Line} from 'react-chartjs-2'
 
-const state = {
-    labels: ['8:00', '10:00', '12:00', '14:00', '16:00', '18:00', '20:00'],
-    datasets: [
-        {
-            label: 'today',
-            fill: false,
-            lineTension: 0.5,
-            borderColor: "#3e95cd",
-            borderWidth: 2,
-            data: [65, 59, 80, 81, 56]
-        }
-    ]
-};
+const Graph = (props) =>  {
 
-function Graph() {
+    const state = {
+        labels: ['8:00', '10:00', '12:00', '14:00', '16:00', '18:00', '20:00'],
+        datasets: [
+            {
+                label: 'today',
+                fill: false,
+                lineTension: 0.5,
+                borderColor: "#3e95cd",
+                borderWidth: 2,
+                data: props.data
+            }
+        ]
+    };
 
     return (
         <div className={styles.Graph}>
-            <h2>today's progress</h2>
+            <h2>{props.name}</h2>
             <Line
                 data={state}
                 options={{
                     title:{
                         display:false,
-                        text:'Average Rainfall per month',
                         fontSize:20
                     },
                     legend:{

@@ -1,7 +1,4 @@
-import styles from "./TabBar.css"
-import React from "react"
-import Navbar from "react-bootstrap/Navbar"
-import Nav from "react-bootstrap/Nav"
+import React, { useState } from 'react'
 import TabBar from "./TabBar";
 import Graph from "./Graph";
 
@@ -11,7 +8,9 @@ function Home() {
         <>
             <h1 class="title">ENERGi</h1>
             <a href="/data">Data Archive</a>
-            <Graph />
+
+            <Graph data={[65, 59, 80, 81, 56, window.localStorage.getItem("recent")]} name="today's progress" />
+
             <TabBar />
         </>
     )
