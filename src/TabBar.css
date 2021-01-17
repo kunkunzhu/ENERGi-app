@@ -3,6 +3,7 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, "Oxygen", "Ubuntu", "Cantarell", sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    background
     background: #FDF8FE;
     display: flex;
     flex-direction: column;
@@ -68,4 +69,30 @@ body {
   
 .NavBar:focus {
     outline: none;
+}
+
+
+.frame1 {
+    padding: 0.7em 1.4em;
+    margin: 0 0.3em 0.3em 0;
+    width: 347px;
+    height: 450px;
+    border: 3px solid #dedbf3;
+    background: #ecf4ff;
+    margin: flex;
+    padding: 15px 10px;
+}
+
+.frame1:hover {
+    background: #f6f0f7;
+    transition: 0.3s;
+}
+  
+.frame1:active {
+    border: 3px solid transparent;
+    background: #e7eef1;
+}
+  
+.frame1:focus {
+    border: 3px solid transparent;
 }
