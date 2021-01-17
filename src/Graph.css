@@ -1,43 +1,74 @@
-
-.Graph {
+body {
+    margin: 15px;
+    font-family: "Oxygen", "Ubuntu", "Cantarell", "Calibri", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: #FDF8FE;
+    color: #333333;
     display: flex;
-    flex-direction: column-reverse;
-    justify-content: flex-start;
-    height: 100%;
+    flex-direction: column;
+    align-items: center;
 }
 
-.frame1 {
+h2 {
+    font-family: "Ubuntu";
+    text-align: center;
+    text-transform: capitalize;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    color: #6780a1;
+}
+
+.range-wrapper{
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 1fr;
+    margin: 20px;
+}
+
+.frame {
     padding: 0.7em 1.4em;
-    margin-top: 40px;
-    margin: 10 0.3em 0.3em 0;
-    width: fit-content;
-    height: 1000px;
-    border: 3px solid #62add3;
+    margin: 0 0.3em 0.3em 0;
+    width: 300px;
+    height: 250px;
+    border: 3px solid #dedbf3;
     background: #ecf4ff;
-    margin: flex;
+    margin: auto;
     padding: 15px 10px;
 }
 
-.frame1:hover {
+.frame:hover {
     background: #f6f0f7;
     transition: 0.3s;
 }
   
-.frame1:active {
+.frame:active {
     border: 3px solid transparent;
     background: #e7eef1;
 }
   
-.frame1:focus {
+.frame:focus {
     border: 3px solid transparent;
 }
 
 .box {
     margin-top: 30px;
-    width: 800px;
+    width: 330px;
     height: 7000ox;
-    border: 3px solid #8FB8ED;
-    background: white;
-    margin: flex;
+    border: 3px solid rgb(250, 241, 241);
+    background: #f1faff;
+    margin: auto;
     padding: 15px 10px;
+}
+
+
+.label {
+    color: darkslategray;
+    font-family: "Calibri";
+    text-transform: oblique;
+}
+
+
+.hidden{
+    display: none;
 }
