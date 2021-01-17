@@ -16,23 +16,26 @@ function handleClick(){
 
 function Questions() {
     return (
-        <>
+        <div class="box">
             <Button href="/" variant="info">BACK</Button>{' '}
-            <h1>QUESTIONS</h1>
+            <h2>questions</h2>
 
             <div id="questions" class="header" className={styles.Questions}>
-                <label htmlFor="customRange1">HOW TIRED DO YOU FEEL RIGHT NOW?</label>
-                <input type="range" className="custom-range" id="q1Range" />
+                <div class="range-wrapper frame">
+                    <label class="label" htmlFor="customRange1">How tired do you feel right now?</label>
+                    <input type="range" className="custom-range" id="q1Range" />
 
-                <label htmlFor="customRange2">HOW JOYOUS DO YOU FEEL RIGHT NOW?</label>
-                <input type="range" className="custom-range" id="q2Range" />
+                    <label class="label" htmlFor="customRange2">How jouyous do you feel right now?</label>
+                    <input type="range" className="custom-range" id="q2Range" />
 
-                <label htmlFor="customRange3">RATE YOUR CURRENT MOOD:</label>
-                <input type="range" className="custom-range" id="q3Range" />
+                    <label class="label" htmlFor="customRange3">Rate your current mood:</label>
+                    <input type="range" className="custom-range" id="q3Range" />
+                </div>
             </div>
             {/* <Button id="next" onClick={handleClick} href="/" variant="info">NEXT</Button>{' '} */}
-            <Button fixed="bottom" onClick={handleClick} href="/" variant="info">SUBMIT</Button>{' '}
-        </>
+            <Button onClick={handleClick} variant="info">SUBMIT</Button>{' '}
+        </div>
+        
     )
 }
 

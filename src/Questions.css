@@ -1,29 +1,57 @@
 body {
-    margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, "Oxygen", "Ubuntu", "Cantarell", sans-serif;
+    margin: 15px;
+    font-family: "Oxygen", "Ubuntu", "Cantarell", "Calibri", sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     background: #FDF8FE;
+    color: #333333;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-header {
+h2 {
     font-family: "Ubuntu";
+    text-align: center;
+    text-transform: capitalize;
     font-style: normal;
     font-weight: bold;
     font-size: 50px;
-    color: #3590F3;
+    color: #6780a1;
 }
 
-.Questions {
-    font-family: "Oxygen";
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: flex-start;
-    height: 100%;
+.range-wrapper{
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 1fr;
+    margin: 20px;
 }
+
+.frame {
+    width: 300px;
+    height: 250px;
+    border: 3px solid #bfb9eb;
+    background: #e6f6ff;
+    margin: auto;
+    padding: 15px 10px;
+}
+
+.box {
+    margin-top: 30px;
+    width: 330px;
+    height: 7000ox;
+    border: 3px solid white;
+    background: whitesmoke;
+    margin: auto;
+    padding: 15px 10px;
+}
+
+
+.label {
+    color: darkslategray;
+    font-family: "Calibri";
+    text-transform: oblique;
+}
+
 
 .Button {
     padding: 0.7em 1.4em;
