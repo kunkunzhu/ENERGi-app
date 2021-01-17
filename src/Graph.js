@@ -21,13 +21,12 @@ const Graph = (props) =>  {
     return (
         <div className={styles.Graph}>
             <div class="box">
-                <h2>today's progress</h2>
+                <h2>{props.name}</h2>
                 <Line
                     data={state}
                     options={{
                         title:{
                             display:false,
-                            text:'Average Rainfall per month',
                             fontSize:20
                         },
                         legend:{
