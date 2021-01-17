@@ -9,7 +9,7 @@ function Data() {
 
     return (
         <>
-            <h1>archive</h1>
+            <h1 class="title">archive</h1>
             <Graph data={[60, 58, 78, 80, 60, 71, 64]} name="this week" />
             <Graph data={[63, 59, 79, 82, 67, 72, 69]} name="this month" />
             <TabBar />

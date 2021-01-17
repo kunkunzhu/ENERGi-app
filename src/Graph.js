@@ -19,7 +19,7 @@ const Graph = (props) =>  {
     };
 
     return (
-        <div className={styles.Graph}>
+        <div className={styles.Graph} class="frame1">
             <div class="box">
                 <h2>{props.name}</h2>
                 <Line
