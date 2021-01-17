@@ -31,8 +31,8 @@ h2 {
     margin: 0 0.3em 0.3em 0;
     width: 300px;
     height: 250px;
-    border: 3px solid #bfb9eb;
-    background: #e6f6ff;
+    border: 3px solid #dedbf3;
+    background: #ecf4ff;
     margin: auto;
     padding: 15px 10px;
 }
@@ -44,7 +44,7 @@ h2 {
   
 .frame:active {
     border: 3px solid transparent;
-    background: #e9f3f7;
+    background: #e7eef1;
 }
   
 .frame:focus {
@@ -55,8 +55,8 @@ h2 {
     margin-top: 30px;
     width: 330px;
     height: 7000ox;
-    border: 3px solid white;
-    background: whitesmoke;
+    border: 3px solid rgb(250, 241, 241);
+    background: #f1faff;
     margin: auto;
     padding: 15px 10px;
 }
@@ -68,32 +68,6 @@ h2 {
     text-transform: oblique;
 }
 
-
-.Button {
-    padding: 0.7em 1.4em;
-    margin: 0 0.3em 0.3em 0;
-    border: none;
-    box-sizing: border-box;
-    font-weight: bold;
-    background: #caeefd;
-    text-align: center;
-    position: relative;
-    border-radius: 20px;
-  }
-  
-.Button:hover {
-    background: #b2def0;
-}
-  
-.Button:active {
-    outline: none;
-    background: #95cae0;
-}
-  
-.Button:focus {
-    outline: none;
-}
-  
 
 .hidden{
     display: none;
