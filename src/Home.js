@@ -8,7 +8,7 @@ function Home() {
     //Hooks 
     const [energyData, setEnergyData] = useState([]);
     useEffect(() => {
-        app.database().ref("/dataPoints").on("value").then((data) => {
+        app.database().ref("/dataPoints").once("value").then((data) => {
             if(data && data.val()){
                 console.log(data.val());
                 //loop array

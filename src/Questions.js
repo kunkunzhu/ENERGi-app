@@ -50,58 +50,10 @@ function Questions() {
                 </div>
             </div>
             {/* { <Button id="next" onClick={handleClick} href="/" variant="info">NEXT</Button>{' '} } */}
-            <Button onClick={handleClick}  variant="info">SUBMIT</Button>{' '}
+            <Button onClick={handleClick} href="/" variant="info">SUBMIT</Button>{' '}
         </div>
 
     )
 }
 
 export default Questions
-/*
-export default class Questions extends Component {
-    constructor(){
-        super();
-        this.state={
-            energy: []
-        };
-    }
-
-    componentDidMount(){
-        db.ref("energy_datas/0001").on("value", snapshot => {
-            let energyDatas = [];
-            snapshot.forEach(snap => {
-              energyDatas.push(snap.val());
-            });
-            this.setState({ energy: energyDatas });
-          });
-    }
-
-    render(){
-        return(
-            <div class="box">
-            <Button href="/" variant="info">BACK</Button>{' '}
-            <h2>questions</h2>
-            {this.state.energy.map(energy => {
-                return (
-                    <div key={energy.energy_id}>
-                        {energy.energyLevel}
-                    </div>
-                );
-            })}
-            <div id="questions" class="header" className={styles.Questions}>
-                <div class="range-wrapper frame">
-                    <label class="label" htmlFor="customRange1">How tired do you feel right now?</label>
-                    <input type="range" className="custom-range" id="q1Range" />
-
-                    <label class="label" htmlFor="customRange2">How jouyous do you feel right now?</label>
-                    <input type="range" className="custom-range" id="q2Range" />
-
-                    <label class="label" htmlFor="customRange3">Rate your current mood:</label>
-                    <input type="range" className="custom-range" id="q3Range" />
-                </div>
-            </div>
-            <Button onClick={handleClick} href="/" variant="info">SUBMIT</Button>{' '}
-        </div>
-        );
-    }
-}*/
