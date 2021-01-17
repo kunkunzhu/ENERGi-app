@@ -7,10 +7,7 @@ function Home() {
     return (
         <>
             <h1 class="title">ENERGi</h1>
-            <a href="/data">Data Archive</a>
-
             <Graph data={[65, 59, 80, 81, 56, window.localStorage.getItem("recent")]} name="today's progress" />
-
             <TabBar />
         </>
     )
