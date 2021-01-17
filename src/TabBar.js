@@ -7,7 +7,7 @@ function TabBar() {
 
     return (
         <div className={styles.TabBar}>
-            <Navbar fixed="bottom">
+            <Navbar expand="lg" variant="light" bg="light" fixed="bottom">
                 <Nav.Link href="/">
                     
                 </Nav.Link>

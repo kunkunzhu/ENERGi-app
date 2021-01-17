@@ -6,12 +6,38 @@
     height: 100%;
 }
 
+.frame1 {
+    padding: 0.7em 1.4em;
+    margin-top: 40px;
+    margin: 10 0.3em 0.3em 0;
+    width: fit-content;
+    height: 1000px;
+    border: 3px solid #62add3;
+    background: #ecf4ff;
+    margin: flex;
+    padding: 15px 10px;
+}
+
+.frame1:hover {
+    background: #f6f0f7;
+    transition: 0.3s;
+}
+  
+.frame1:active {
+    border: 3px solid transparent;
+    background: #e7eef1;
+}
+  
+.frame1:focus {
+    border: 3px solid transparent;
+}
+
 .box {
     margin-top: 30px;
-    width: 330px;
+    width: 800px;
     height: 7000ox;
     border: 3px solid #8FB8ED;
     background: white;
-    margin: auto;
+    margin: flex;
     padding: 15px 10px;
 }

@@ -1,4 +1,6 @@
 import React, { useState } from 'react'
+import "typeface-ubuntu"
+import "typeface-oxygen"
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'react-router-dom'
@@ -10,7 +12,7 @@ import { Graph } from "./Graph"
 
 function App() {
   return (
-      <BrowserRouter>
+      <BrowserRouter class="frame">
           <Switch>
               <Route exact path="/">
                   <Home />

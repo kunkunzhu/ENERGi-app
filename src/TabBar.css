@@ -9,10 +9,15 @@ body {
     align-items: center;
 }
 
+#icon {
+    color: #3590F3;
+
+}
+
 .title {
     font-family: "Ubuntu";
     text-align: center;
-    font-style: normal;
+    font-style: oblique;
     font-weight: bold;
     font-size: 50px;
     color:#8FB8ED;
@@ -20,7 +25,10 @@ body {
 
 
 .TabBar {
+    margin-top: 30px;
     color: #333333;
+    background-color: #FDF8FE;
+    border: 2px, solid, #1c5a9c;
     display: flex;
     flex-direction: column-reverse;
     justify-content: flex-start;
@@ -32,10 +40,20 @@ body {
     display: flex;
 }
 
-.right-side {
-    font-weight: 600;
-    color: powderblue;
+
+.Nav.Link {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
 }
+
+.Nav.Link:hover {
+    border-bottom: 1px solid black;
+    color: black;
+    transition: color 0.5s;
+    text-decoration: underline !important;
+}
+
 .Nav.Link {
     color: #c2dde0;
     text-decoration: none;
@@ -45,15 +63,7 @@ body {
 .NavBar:hover {
     border-bottom: 1px solid black;
     color: black;
-}
-
-.NavBar:hover {
     background: #b2def0;
-}
-  
-.NavBar:active {
-    outline: none;
-    background: #95cae0;
 }
   
 .NavBar:focus {
